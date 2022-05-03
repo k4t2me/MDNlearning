@@ -52,7 +52,7 @@
     // Add your code here
     let stepLength = 3; //the length each move takes.
 
-    // Function moves the cirle by step, moveX is a boolean to tell wether moveing on x-axis. 
+    // Function moves the circle by step, moveX is a boolean to tell wether moveing on x-axis. 
     function moveCirle(moveX, step) {
       if (moveX) x += step;
       else y += step;
@@ -60,7 +60,7 @@
       drawCircle(x, y, size);
     }
 
-    // Move the cirle via keys.
+    // Move the circle via keys.
     canvas.addEventListener('keydown',event => {
       switch (event.key) {
         case 'w' : {
